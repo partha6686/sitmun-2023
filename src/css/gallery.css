@@ -1,0 +1,117 @@
+/*Swiper CSS*/
+.media h1 {
+  color: #013f72;
+  margin: 2rem auto;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img:hover {
+  position: absolute;
+  scale: 1.1;
+  transition: all 0.4s ease-in-out;
+  z-index: 100;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.swiper-pagination {
+  padding-bottom: 10px;
+  position: relative;
+  bottom: 0;
+}
+
+.swiper-container {
+  width: 480px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #131313;
+  position: relative;
+  padding: 1rem;
+}
+
+/*Break points for gallery*/
+@media screen and (min-width: 640px) {
+  .swiper-container {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  .swiper-container {
+    width: 1024px;
+  }
+}
+
+/******************* CountDown *******************/
+.count_div {
+  display: inline-block;
+  padding: 0.3rem 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  z-index: 5;
+  bottom: 70px;
+  box-shadow: 0px 2px 10px #808080;
+}
+.count_down {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #29a0d3;
+  display: flex;
+  justify-content: center;
+  cursor: context-menu;
+}
+.cd_block {
+  width: 100px;
+  margin: 0 0 0.6rem;
+}
+.cd_block p {
+  font-size: 1rem;
+  color: #013f72;
+  margin: 0;
+}
+
+@media screen and (max-width: 460px) {
+  .count_down {
+    font-size: 2rem;
+  }
+  .cd_block {
+    width: 60px;
+  }
+  .cd_block p {
+    font-size: 10px;
+  }
+  .count_div {
+    padding: 0.3rem 1rem;
+    bottom: 40px;
+  }
+}
+
+/******************* TimeLine *******************/
+.time_line {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

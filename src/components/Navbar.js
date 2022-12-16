@@ -18,7 +18,7 @@ function NavbarSection() {
   }, []);
   return (
     <Navbar
-      variant={`${navBackground ? "dark" : "light"}`}
+      variant={`${navBackground ? "light" : "dark"}`}
       expand="md"
       fixed="top"
       className={`navbar ${navBackground ? "solid" : "transparent"} `}
@@ -44,7 +44,7 @@ function NavbarSection() {
           <Nav.Link href="#home" className="navbar-menu">
             COMMITTEE
           </Nav.Link>
-          <Nav.Link href="#home" className="navbar-menu-button">
+          <Nav.Link href="#home" className="">
             <Button className="register-button">REGISTER</Button>
           </Nav.Link>
         </Navbar.Collapse>
