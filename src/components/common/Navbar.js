@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Container, Nav, Button } from "react-bootstrap";
-import logo from "../img/logo.png";
-import "../css/navbar.css";
+import logo from "../../img/logo.png";
+import "../../css/navbar.css";
 
 function NavbarSection() {
   const [navBackground, setNavBackground] = useState(false);

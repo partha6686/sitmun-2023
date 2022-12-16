@@ -18,7 +18,7 @@
   color: #29a0d3 !important;
 }
 .nav-link .register-button {
-  border-radius: 0px;
+  border-radius: 20px;
   background-color: transparent;
   border: 2px solid #fff;
   font-weight: 500;
@@ -28,9 +28,8 @@
   color: #131313;
 }
 .nav-link .register-button:hover {
-  border: 2px solid;
-  border-image: linear-gradient(to right, #29a0d3, hsl(280, 87%, 65%)) 10;
-  /* border-radius: 30px; */
+  border: none;
+  padding: 8px 14px;
   background-image: linear-gradient(to right, #29a0d3, hsl(280, 87%, 65%));
   color: #fff !important;
 }

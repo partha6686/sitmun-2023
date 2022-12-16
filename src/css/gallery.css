@@ -92,6 +92,22 @@
   margin: 0;
 }
 
+@media screen and (max-width: 620px) {
+  .count_down {
+    font-size: 3rem;
+  }
+  .cd_block {
+    width: 80px;
+  }
+  .cd_block p {
+    font-size: 14px;
+  }
+  .count_div {
+    padding: 0.3rem 1rem;
+    bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 460px) {
   .count_down {
     font-size: 2rem;

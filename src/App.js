@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/common/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Teams from "./pages/Teams";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/hero.css";
+import "../../css/hero.css";
 import { Carousel } from "react-bootstrap";
 import { BsChevronDoubleLeft } from "react-icons/bs";
 import {
@@ -8,10 +8,10 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 
-import img1 from "../img/DSC05014.JPG";
-import img5 from "../img/DSC_7073.JPG";
-import img8 from "../img/DSC_6969.JPG";
-import img9 from "../img/DSC05203.JPG";
+import img1 from "../../img/DSC05014.JPG";
+import img5 from "../../img/DSC_7073.JPG";
+import img8 from "../../img/DSC_6969.JPG";
+import img9 from "../../img/DSC05203.JPG";
 
 const Hero = () => {
   return (
@@ -71,22 +71,24 @@ const Hero = () => {
                 Know More
               </a>
             </div>
-            <div className="scroll_down">
-              <BsChevronDoubleLeft />
-              <span> Scroll Down</span>
-            </div>
-            <div className="hero_socials">
-              <AiFillInstagram
-                style={{ marginRight: "30px", transform: "rotate(90deg)" }}
-              />
-              <AiOutlineWhatsApp
-                style={{ marginRight: "30px", transform: "rotate(90deg)" }}
-              />
-              <AiFillYoutube
-                style={{ marginRight: "30px", transform: "rotate(90deg)" }}
-              />
-            </div>
           </div>
+        </div>
+      </div>
+      <div className="vertical_div container">
+        <div className="scroll_down">
+          <BsChevronDoubleLeft />
+          <span> Scroll Down</span>
+        </div>
+        <div className="hero_socials">
+          <AiFillInstagram
+            style={{ marginRight: "30px", transform: "rotate(90deg)" }}
+          />
+          <AiOutlineWhatsApp
+            style={{ marginRight: "30px", transform: "rotate(90deg)" }}
+          />
+          <AiFillYoutube
+            style={{ marginRight: "30px", transform: "rotate(90deg)" }}
+          />
         </div>
       </div>
     </div>

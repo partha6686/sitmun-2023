@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { Autoplay, Pagination, Navigation } from "swiper";
-import "../css/gallery.css";
+import "../../css/gallery.css";
 
 const Gallery = () => {
   return (

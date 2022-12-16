@@ -1,3 +1,15 @@
+.hero-wrap {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  /* min-height: 750px; */
+  background-color: #000;
+  opacity: 0.7;
+  z-index: 3;
+}
+
 .hero_page_wrapper {
   position: absolute;
   top: 0;
@@ -6,9 +18,19 @@
   height: 100vh;
   z-index: 5;
 }
+.hero_page_main {
+  display: flex;
+  transform: translate(0%, 80%);
+}
 .hero_page_main p {
   color: #fff;
 }
+.hero_title_wrapper {
+  align-self: center;
+  margin-left: 15px;
+  flex-grow: 2;
+}
+
 .event_name {
   font-size: 65px;
   font-weight: 800;
@@ -24,24 +46,18 @@
   margin-top: -28px;
   text-transform: uppercase;
 }
-.hero_page_main {
-  display: flex;
-  transform: translate(0%, 80%);
-}
-.hero_title_wrapper {
-  align-self: center;
-  margin-left: 15px;
-}
-.hero_title_wrapper {
-  flex-grow: 2;
+
+.vertical_div {
+  position: relative;
+  z-index: 5;
 }
 .scroll_down {
   transform: rotate(270deg);
   display: inline-block;
   color: #fff;
   position: absolute;
-  left: -70px;
-  margin-top: 10rem;
+  left: -40px;
+  bottom: 100px;
   font-size: 1rem;
   letter-spacing: 4px;
 }
@@ -50,15 +66,15 @@
   display: inline-block;
   color: #fff;
   position: absolute;
-  right: -60px;
-  margin-top: 10rem;
+  right: -40px;
+  bottom: 100px;
   font-size: 1.5rem;
   cursor: pointer;
 }
 #myCarousel,
 .hero-img {
   height: 100vh;
-  min-height: 750px;
+  /* min-height: 750px; */
   overflow: hidden;
   object-fit: cover;
 }
@@ -68,34 +84,31 @@
   visibility: hidden;
 }
 
-.hero-wrap {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  min-height: 750px;
-  background-color: #000;
-  opacity: 0.7;
-  z-index: 3;
-}
 .btn-section {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .hero-button {
   text-decoration: none;
   color: #fff;
-  background-color: #29a0d3;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  background-color: transparent;
   margin: 8px;
   padding: 12px 18px;
-  border-radius: 30px;
   font-size: 20px;
-  border-style: none;
   text-transform: uppercase;
 }
 .hero-button:hover {
+  padding: 14px 20px;
+  border: none;
   background-image: linear-gradient(to right, #29a0d3, hsl(280, 87%, 65%));
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  .vertical_div {
+    display: none;
+  }
 }
 @media (max-width: 460px) {
   .hero_page_main {
@@ -106,9 +119,5 @@
   }
   .event_tagline {
     font-size: 16px;
-  }
-  .scroll_down,
-  .hero_socials {
-    display: none;
   }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import Countdown from "react-countdown";
-import "../css/gallery.css";
+import "../../css/gallery.css";
 
 const CountDown = () => {
   const Completionist = () => <span>We are now Live</span>;
