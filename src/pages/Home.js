@@ -1,9 +1,9 @@
 import React from "react";
 import "../App.css";
-import CountDown from "../components/landing/CountDown";
-import Gallery from "../components/landing/Gallery";
-import Hero from "../components/landing/Hero";
-import TimeLine from "../components/landing/TimeLine";
+import CountDown from "../components/Home/CountDown";
+import Gallery from "../components/Home/Gallery";
+import Hero from "../components/Home/Hero";
+import TimeLine from "../components/Home/TimeLine";
 
 const Home = () => {
   return (
