@@ -6,123 +6,68 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
-import { Autoplay, Pagination, Navigation } from "swiper";
+import "swiper/css/effect-coverflow";
+import "swiper/css/lazy";
+import { Autoplay, Pagination, EffectCoverflow, Navigation } from "swiper";
 import "../../css/gallery.css";
+
+import img1 from "../../img/DSC05014.JPG";
+import img5 from "../../img/DSC_7073.JPG";
+import img8 from "../../img/DSC_6969.JPG";
+import img9 from "../../img/DSC05203.JPG";
 
 const Gallery = () => {
   return (
     <>
-      <div className="media">
+      <div className="media container">
         <h1>GALLERY</h1>
-        <>
-          <Swiper
-            breakpoints={{
-              250: {
-                slidesPerView: 2,
-              },
-              640: {
-                slidesPerView: 2,
-              },
-              768: {
-                slidesPerView: 2,
-                spaceBetween: 25,
-              },
-              1024: {
-                slidesPerView: 3,
-                spaceBetween: 25,
-              },
-            }}
-            centeredSlides={true}
-            loop={true}
-            autoplay={{
-              delay: 2400,
-              disableOnInteraction: false,
-            }}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={true}
-            modules={[Pagination, Navigation, Autoplay]}
-            className="myGallerySwiper"
-          >
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-            </SwiperSlide>
-          </Swiper>
-        </>
-        {/*<Swiper
+        <Swiper
           effect={"coverflow"}
-          grabCursor={true}
-          centeredSlides={true}
           slidesPerView={"auto"}
+          centeredSlides={true}
           coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 6,
-            slideShadows: true,
-          }}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
+            rotate: 0,
+            stretch: 100,
+            depth: 150,
+            modifier: 1.5,
+            slideShadows: false,
           }}
           loop={true}
-          pagination={true}
-          modules={[Autoplay, EffectCoverflow, Pagination]}
-          className="mySwiper"
+          autoplay={{
+            delay: 2400,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={false}
+          modules={[Pagination, Navigation, EffectCoverflow, Autoplay]}
+          className="myGallerySwiper"
         >
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            <img src={img1} alt="sitmun-highlights" className="swiper-lazy" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            <div>
+              <img src={img5} alt="sitmun-highlights" className="swiper-lazy" />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            <div>
+              <img src={img8} alt="sitmun-highlights" className="swiper-lazy" />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            <div>
+              <img src={img9} alt="sitmun-highlights" className="swiper-lazy" />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+            <div>
+              <img src={img5} alt="sitmun-highlights" className="swiper-lazy" />
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-          </SwiperSlide>
-        </Swiper>*/}
+        </Swiper>
       </div>
     </>
   );
