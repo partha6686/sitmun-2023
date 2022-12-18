@@ -1,12 +1,22 @@
 import React from "react";
 import "../App.css";
+import AboutUs from "../components/Home/AboutUs";
+import MsgSecGen from "../components/Home/MsgSecGen";
+import Testimonials from "../components/Home/Testimonials";
+import '../css/home.css'
 
-const Home = () => {
+function LandingPage() {
+
+
+
   return (
-    <div>
-      <div>Welcome to SITMUN 2023</div>
-    </div>
-  );
-};
+    <>
+      <AboutUs />
+      <MsgSecGen />
+      <Testimonials />
 
-export default Home;
+    </>
+  );
+}
+
+export default LandingPage;
