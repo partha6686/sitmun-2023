@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./components/common/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Teams from "./pages/Teams";
+import TeamPage from "./pages/Team";
+import CommitteePage from "./pages/CommitteePage";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/teams" element={<Teams />} />
+          <Route path="/teams" element={<TeamPage />} />
+          <Route path="/committee" element={<CommitteePage />} />
         </Routes>
       </BrowserRouter>
     </div>
