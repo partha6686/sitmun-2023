@@ -7,12 +7,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, EffectCoverflow, Pagination, Navigation } from "swiper";
-import asthaKar from "../../img/logo.png";
-import sreelaxmi from "../../img/logo.png";
-import savyasachi from "../../img/logo.png";
-import polaki from "../../img/logo.png";
-import amrutaRay from "../../img/logo.png";
-import keshav from "../../img/logo.png";
+import Heading from "../common/heading";
 
 const tdata = [
     {
@@ -38,6 +33,7 @@ function Testimonials() {
 
     return (
         <div className="testimonial-section">
+            <Heading head='Testimonials' />
             <Container>
 
                 <div className="testimonials-swiper-container">
@@ -54,7 +50,7 @@ function Testimonials() {
                             },
                             1024: {
                                 slidesPerView: 3,
-                                spaceBetween: 80,
+                                spaceBetween: 110,
                             },
                         }}
 
