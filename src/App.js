@@ -5,6 +5,7 @@ import Navbar from "./components/common/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import TeamPage from "./pages/Team";
 import CommitteePage from "./pages/CommitteePage";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (

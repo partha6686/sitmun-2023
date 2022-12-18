@@ -38,6 +38,7 @@ function Testimonials() {
 
                 <div className="testimonials-swiper-container">
                     <Swiper
+
                         breakpoints={{
                             250: {
                                 slidesPerView: 1.15,
@@ -81,7 +82,7 @@ function Testimonials() {
                     >
 
                         {tdata.map((item, key) => (
-                            <SwiperSlide>
+                            <SwiperSlide className="t-slide">
                                 <figure class="snip1157">
                                     <blockquote class='d'>{item.message}
                                         <div class="arrow"></div>
