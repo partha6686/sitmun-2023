@@ -17,6 +17,32 @@ import img8 from "../../img/DSC_6969.JPG";
 import img9 from "../../img/DSC05203.JPG";
 
 const Gallery = () => {
+  const galData = [
+    {
+      imgSrc: img1,
+    },
+    {
+      imgSrc: img5,
+    },
+    {
+      imgSrc: img8,
+    },
+    {
+      imgSrc: img9,
+    },
+    {
+      imgSrc: img5,
+    },
+    {
+      imgSrc: img8,
+    },
+    {
+      imgSrc: img1,
+    },
+    {
+      imgSrc: img9,
+    },
+  ];
   return (
     <>
       <div className="media container">
@@ -44,29 +70,15 @@ const Gallery = () => {
           modules={[Pagination, Navigation, EffectCoverflow, Autoplay]}
           className="myGallerySwiper"
         >
-          <SwiperSlide className="g-slide">
-            <img src={img1} alt="sitmun-highlights" className="swiper-lazy" />
-          </SwiperSlide>
-          <SwiperSlide className="g-slide">
-            <div>
-              <img src={img5} alt="sitmun-highlights" className="swiper-lazy" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="g-slide">
-            <div>
-              <img src={img8} alt="sitmun-highlights" className="swiper-lazy" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="g-slide">
-            <div>
-              <img src={img9} alt="sitmun-highlights" className="swiper-lazy" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="g-slide">
-            <div>
-              <img src={img5} alt="sitmun-highlights" className="swiper-lazy" />
-            </div>
-          </SwiperSlide>
+          {galData.map((item, idx) => (
+            <SwiperSlide className="g-slide" key={Math.random() * idx}>
+              <img
+                src={item.imgSrc}
+                alt="sitmun-highlights"
+                className="swiper-lazy"
+              />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </>

@@ -7,6 +7,7 @@ import TimeLine from "../components/Home/TimeLine";
 import AboutUs from "../components/Home/AboutUs";
 import MsgSecGen from "../components/Home/MsgSecGen";
 import Testimonials from "../components/Home/Testimonials";
+import Faq from "../components/Home/Faq";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Gallery />
       <TimeLine />
       <Testimonials />
+      <Faq />
     </div>
   );
 };

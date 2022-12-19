@@ -77,7 +77,7 @@ const Hero = () => {
       <div className="vertical_div container">
         <div className="scroll_down">
           <BsChevronDoubleLeft />
-          <span> Scroll Down</span>
+          <span> 24.02.2023</span>
         </div>
         <div className="hero_socials">
           <AiFillInstagram
