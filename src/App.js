@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./components/common/Navbar";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import TeamPage from "./pages/Team";
 import CommitteePage from "./pages/CommitteePage";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";

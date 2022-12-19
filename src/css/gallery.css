@@ -20,7 +20,7 @@
   border-radius: 32px;
   -webkit-filter: none !important;
 }
-.swiper-slide-visible {
+ .swiper-slide-visible {
   -webkit-filter: blur(2px) !important;
 }
 .myGallerySwiper .swiper-slide {

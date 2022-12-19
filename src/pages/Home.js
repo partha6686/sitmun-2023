@@ -6,6 +6,7 @@ import Hero from "../components/Home/Hero";
 import TimeLine from "../components/Home/TimeLine";
 import AboutUs from "../components/Home/AboutUs";
 import MsgSecGen from "../components/Home/MsgSecGen";
+import Testimonials from "../components/Home/Testimonials";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <MsgSecGen />
       <Gallery />
       <TimeLine />
+      <Testimonials />
     </div>
   );
 };
