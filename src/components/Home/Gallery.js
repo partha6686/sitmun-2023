@@ -44,25 +44,25 @@ const Gallery = () => {
           modules={[Pagination, Navigation, EffectCoverflow, Autoplay]}
           className="myGallerySwiper"
         >
-          <SwiperSlide>
+          <SwiperSlide className="g-slide">
             <img src={img1} alt="sitmun-highlights" className="swiper-lazy" />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="g-slide">
             <div>
               <img src={img5} alt="sitmun-highlights" className="swiper-lazy" />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="g-slide">
             <div>
               <img src={img8} alt="sitmun-highlights" className="swiper-lazy" />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="g-slide">
             <div>
               <img src={img9} alt="sitmun-highlights" className="swiper-lazy" />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="g-slide">
             <div>
               <img src={img5} alt="sitmun-highlights" className="swiper-lazy" />
             </div>
