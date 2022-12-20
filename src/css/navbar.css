@@ -4,16 +4,16 @@
 }
 .navbar.solid {
   transition: all 0.6s ease-in-out;
-  background-color: #fff;
-  box-shadow: 0px 0px 8px #808080;
+  background-color: #212121;
+  box-shadow: 0px 0px 8px #080808;
 }
 .navbar .navbar-menu {
   color: #fff;
   font-weight: 500;
 }
-.navbar.solid .navbar-menu {
+/* .navbar.solid .navbar-menu {
   color: #131313;
-}
+} */
 .navbar-menu:hover {
   color: #29a0d3 !important;
 }
@@ -24,8 +24,8 @@
   font-weight: 500;
 }
 .navbar.solid .nav-link .register-button {
-  border-color: #131313;
-  color: #131313;
+  border-color: #fff;
+  color: #fff;
 }
 .nav-link .register-button:hover {
   border: none;
@@ -69,6 +69,6 @@
   }
 }
 
-.html{
+.html {
   overflow-x: hidden;
 }

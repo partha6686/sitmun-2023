@@ -63,12 +63,12 @@
 .count_div {
   display: inline-block;
   padding: 0.3rem 2rem;
-  background-color: #fff;
+  background-color: #2c3333;
   border-radius: 10px;
   position: relative;
   z-index: 5;
   bottom: 70px;
-  box-shadow: 0px 2px 10px #808080;
+  box-shadow: 0px 2px 10px #191919;
 }
 .count_down {
   font-size: 4rem;
@@ -84,7 +84,7 @@
 }
 .cd_block p {
   font-size: 1rem;
-  color: #013f72;
+  color: #29a0d3;
   margin: 0;
 }
 
@@ -128,10 +128,12 @@
   justify-content: center;
 }
 .vertical-timeline-element-icon {
-  box-shadow: 0 0 0 4px hsl(280, 87%, 65%), inset 0 2px 0 rgb(0 0 0/8%),
+  box-shadow: 0 0 0 5px hsl(280, 87%, 65%), inset 0 2px 0 rgb(0 0 0/8%),
     0 3px 0 4px rgb(0 0 0/5%) !important;
 }
-.vertical-timeline-element-content {
+.time_line .vertical-timeline-element-content {
+  background-color: #2c3333 !important;
+  color: #fff;
   box-shadow: 0 3px 0 #29a0d3 !important;
 }
 .vertical-timeline-element-content-arrow {
@@ -139,7 +141,6 @@
   border-right: 7px solid #29a0d3 !important;
 }
 .timeline_logo img {
-  background-color: #fff;
   border-radius: 100%;
   width: 60px;
 }
