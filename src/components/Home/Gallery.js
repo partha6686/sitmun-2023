@@ -10,6 +10,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/lazy";
 import { Autoplay, Pagination, EffectCoverflow, Navigation } from "swiper";
 import "../../css/gallery.css";
+import Heading from "../common/heading";
 
 import img1 from "../../img/DSC05014.JPG";
 import img5 from "../../img/DSC_7073.JPG";
@@ -46,7 +47,7 @@ const Gallery = () => {
   return (
     <>
       <div className="media container">
-        <h1>GALLERY</h1>
+        <Heading head='Gallery'></Heading>
         <Swiper
           effect={"coverflow"}
           slidesPerView={"auto"}

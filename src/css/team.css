@@ -5,12 +5,18 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
+
+.html{
+  overflow-x: hidden;
+}
+.team-section{
+  width: 100vw;
+}
 .team-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  background: #e0f7fa;
 }
 .card-container {
     width: 100%;
@@ -34,6 +40,7 @@
 }
 .content{
     margin: 0;
+    
 }
 .card-container .card .content {
   position: absolute;
@@ -58,9 +65,9 @@
 }
 .card-container .card .content .contentBx h3 {
   text-transform: uppercase;
-  color: #fff;
+  color: black;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   text-align: center;
   margin: 20px 0 15px;
@@ -76,8 +83,24 @@
 }
 .card-container .card .content .contentBx h3 span {
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 500;
   text-transform: initial;
+}
+
+ .card img{
+  padding: 5%;
+  padding-bottom: 30%;
+  width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: cover;
+}
+
+
+.event_nameteam{
+  margin-top: 10%;
+  font-size: 65px;
+  font-weight: 800;
+  text-align: center;
 }
 
 

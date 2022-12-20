@@ -4,11 +4,15 @@ import '../css/committee.css'
 import disec from '../img/DISEC.png';
 import ip from '../img/IPLOGO.png';
 import unhrc from '../img/UNHRC.png';
+import HeroCommittee from "../components/committee/HeroCommittee";
+import Footer from "../components/common/Footer";
+
 function CommitteePage() {
     const pic = 'https://s25.postimg.cc/frbd9towf/cta-2.png';
 
     return (
         <div>
+            <HeroCommittee />
             <div className="box-container real">
                 <div class="box-item">
                     <div class="flip-box">
@@ -202,6 +206,8 @@ function CommitteePage() {
                 </div>
 
             </div>
+
+            <Footer />
 
         </div>
 

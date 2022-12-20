@@ -5,13 +5,14 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "../../css/gallery.css";
+import Heading from "../common/heading";
 
 import TimeLogo from "./TimeLogo";
 
 const TimeLine = () => {
   return (
     <div className="timeline_main">
-      <h1>TIMELINE</h1>
+      <Heading head='Timeline' />
       <div className="time_line">
         <VerticalTimeline lineColor="#29a0d3">
           <VerticalTimelineElement

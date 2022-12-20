@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+html{
+  overflow-x: hidden;
+}
+
 .about-us {
   margin: 20px auto;
   font-family: 'Poppins';
@@ -11,6 +15,7 @@
   text-align: justify;
   padding-left: 40px;
   font-size: 18px;
+  color: white;
 }
 .about-us .about-us-div {
   display: flex;

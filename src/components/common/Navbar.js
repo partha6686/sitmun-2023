@@ -41,7 +41,7 @@ function NavbarSection() {
           <Nav.Link href="/teams" className="navbar-menu">
             TEAM
           </Nav.Link>
-          <Nav.Link href="#home" className="navbar-menu">
+          <Nav.Link href="/committee" className="navbar-menu">
             COMMITTEE
           </Nav.Link>
           <Nav.Link href="#home" className="">

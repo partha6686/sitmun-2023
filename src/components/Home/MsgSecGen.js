@@ -3,10 +3,12 @@ import "../../css/msgsecgen.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Heading from "../common/heading";
 
 function MsgSecGen() {
   return (
     <Container className="msg-secgen">
+      <Heading head='MESSAGE FROM SECRETARY GENERAL' />
       <section>
         <div className="msg-container">
           <div className="left"></div>
