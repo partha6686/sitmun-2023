@@ -7,9 +7,9 @@ import { useState } from 'react';
 
 const sg = 'https://ik.imagekit.io/72bccx2bu/AVINAS.jpeg';
 const dsg = 'https://ik.imagekit.io/72bccx2bu/GEETANSA.JPG';
-const dg = 'https://ik.imagekit.io/72bccx2bu/AVINAS.jpeg';
+const dg = 'https://ik.imagekit.io/72bccx2bu/SONAM.png';
 const charged = 'https://ik.imagekit.io/72bccx2bu/ARPITA.jpg';
-const oios = 'https://ik.imagekit.io/72bccx2bu/AVINAS.jpeg';
+const oios = 'https://ik.imagekit.io/72bccx2bu/AKASH.jpg';
 
 export default function CoreTeam() {
     return (
@@ -24,7 +24,7 @@ export default function CoreTeam() {
                         <Profilecard image={dsg} position='Deputy Secretary General' name='Geetansa' />
                     </Col>
                     <Col xs={12} md={4}>
-                        <Profilecard image={sg} position='Deputy General' name='Sonam Acharya' />
+                        <Profilecard image={dg} position='Deputy General' name='Sonam Acharya' />
                     </Col>
                 </Row>
             </div>
@@ -34,7 +34,7 @@ export default function CoreTeam() {
                         <Profilecard image={charged} position="Charge D' Affairs" name='Arpita Mohanty' />
                     </Col>
                     <Col xs={12} md={6}>
-                        <Profilecard image={sg} position='Director General OIOS' name='Akash Pandit' />
+                        <Profilecard image={oios} position='Director General OIOS' name='Akash Pandit' />
                     </Col>
 
                 </Row>

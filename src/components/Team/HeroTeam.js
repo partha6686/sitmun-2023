@@ -13,31 +13,11 @@ const HeroTeam = () => {
         <div>
             <div className="hero-wrap team" id="hero"></div>
             <Carousel id="myCarousel">
+
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 hero-img "
+                        className="d-block w-100 hero-img"
                         src={img1}
-                        alt="First slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 hero-img"
-                        src={img2}
-                        alt="Second slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 hero-img"
-                        src={img3}
-                        alt="Second slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 hero-img"
-                        src={img4}
                         alt="Second slide"
                     />
                 </Carousel.Item>
@@ -70,10 +50,10 @@ const HeroTeam = () => {
                 </div>
             </div>
             <div className="vertical_div container">
-                <div className="scroll_down">
+                {/* <div className="scroll_down">
                     <BsChevronDoubleLeft />
                     <span> 24.02.2023</span>
-                </div>
+                </div> */}
                 <div className="hero_socials">
                     {/* <AiFillInstagram
                         style={{ marginRight: "30px", transform: "rotate(90deg)" }}

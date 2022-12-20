@@ -21,8 +21,8 @@ function Footer() {
                             </div>
                             <center><hr /></center>
                             <div className="social-links">
-                                <a href="https://instagram.com/nirman_silicon?igshid=YmMyMTA2M2Y="><FaInstagram className="insta icon" /></a>
-                                <a href="https://twitter.com/nirman_silicon?t=Gsyq0AJUllxIkxB8EEl8GA&s=08"><FaWhatsapp className="tw icon" /></a>
+                                <a href="https://instagram.com/instagram.com/sitmunbbsr"><FaInstagram className="insta icon" /></a>
+                                <a href="https://wa.me/+917717778982"><FaWhatsapp className="tw icon" /></a>
                             </div>
 
 
@@ -37,10 +37,10 @@ function Footer() {
                             <div class="office-des">
                                 <p>
                                     USG Public Relations <br />
-                                    SIT MUN 2022 <br />
+                                    SIT MUN 2023 <br />
                                     Silicon Institute of Technology <br />
                                     Email:- meta.academics@silicon.ac.in<br />
-                                    Phone:- +91 7873712452
+                                    Phone:- +91 7717778982
                                 </p>
                             </div>
                         </div>
@@ -79,8 +79,8 @@ function Footer() {
                             </div>
                             <hr className="lhr" />
                             <div className="social-links">
-                                <a href="https://instagram.com/nirman_silicon?igshid=YmMyMTA2M2Y="><FaInstagram className="insta icon" /></a>
-                                <a href="https://twitter.com/nirman_silicon?t=Gsyq0AJUllxIkxB8EEl8GA&s=08"><FaWhatsapp className="tw icon" /></a>
+                                <a href="https://instagram.com/instagram.com/sitmunbbsr"><FaInstagram className="insta icon" /></a>
+                                <a href="https://wa.me/+917717778982"><FaWhatsapp className="tw icon" /></a>
                             </div>
 
 

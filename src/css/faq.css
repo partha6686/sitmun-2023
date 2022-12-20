@@ -79,8 +79,7 @@
   }
 }
 .q-dark {
-  background-color: #29a0d3;
-  border: 2px solid #29a0d3;
+  border: 2px solid var(--pink);
   color: #fff;
 }
 .q-dark p {

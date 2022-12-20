@@ -15,6 +15,7 @@ import Finance from "../components/Team/finance";
 import Logistics from "../components/Team/logistics";
 import SponsorshipTeam from "../components/Team/sponsorteam";
 import Hospitality from "../components/Team/hospitality";
+import EBATeam from "../components/Team/eAffairs";
 function TeamPage() {
 
     return (
@@ -26,6 +27,7 @@ function TeamPage() {
             <PrTeam />
             <WebTeam />
             <Logistics />
+            <EBATeam />
             <SponsorshipTeam />
             <Hospitality />
             <Finance />

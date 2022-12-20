@@ -13,27 +13,7 @@ const HeroCommittee = () => {
         <div>
             <div className="hero-wrap committee" id="hero"></div>
             <Carousel id="myCarousel">
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 hero-img "
-                        src={img1}
-                        alt="First slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 hero-img"
-                        src={img2}
-                        alt="Second slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 hero-img"
-                        src={img3}
-                        alt="Second slide"
-                    />
-                </Carousel.Item>
+
                 <Carousel.Item>
                     <img
                         className="d-block w-100 hero-img"
@@ -53,23 +33,14 @@ const HeroCommittee = () => {
                     </div>
                 </div>
             </div>
-            <div className="vertical_div container">
+            {/* <div className="vertical_div container">
                 <div className="scroll_down">
                     <BsChevronDoubleLeft />
                     <span> 24.02.2023</span>
                 </div>
                 <div className="hero_socials">
-                    {/* <AiFillInstagram
-                        style={{ marginRight: "30px", transform: "rotate(90deg)" }}
-                    />
-                    <AiOutlineWhatsApp
-                        style={{ marginRight: "30px", transform: "rotate(90deg)" }}
-                    />
-                    <AiFillYoutube
-                        style={{ marginRight: "30px", transform: "rotate(90deg)" }}
-                    /> */}
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

@@ -2,6 +2,15 @@ import React, { useState } from "react";
 import "../../css/faq.css";
 import Accordion from "../common/Accordion";
 import Heading from "../common/heading";
+import fee from './FEES.pdf';
+
+const openInNewTab = url => {
+  window.open(url, '_blank', 'noopener,noreferrer');
+};
+
+function openBrochure() {
+  window.open(fee);
+}
 
 const Faq = () => {
   const allFaq = [
@@ -27,13 +36,7 @@ const Faq = () => {
       id: 4,
       question: "What is the fees structure of SITMUN?",
       answer:
-        "Regarding the fees strcuture, don't worry we got you covered. <a href='https://bit.ly/3skXWqJ' target='_blank'>Click here</a> to know more.",
-    },
-    {
-      id: 4,
-      question: "What is the fees structure of SITMUN?",
-      answer:
-        "Regarding the fees strcuture, don't worry we got you covered. <a href='https://bit.ly/3skXWqJ' target='_blank'>Click here</a> to know more.",
+        "Regarding the fees strcuture, don't worry we got you covered, <a href='https://ik.imagekit.io/72bccx2bu/FEES.pdf' target='_blank'>click here</a> to know about fees structure and also go through the <a href='https://ik.imagekit.io/72bccx2bu/GUIDELINES.pdf' target='_blank'>Registration Guidelines</a>",
     },
   ];
 
