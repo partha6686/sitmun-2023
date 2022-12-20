@@ -10,6 +10,7 @@
 .navbar .navbar-menu {
   color: #fff;
   font-weight: 500;
+  overflow-x: hidden;
 }
 /* .navbar.solid .navbar-menu {
   color: #131313;

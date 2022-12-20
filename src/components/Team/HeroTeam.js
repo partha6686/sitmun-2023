@@ -16,7 +16,7 @@ import img9 from "../../img/DSC05203.JPG";
 const HeroTeam = () => {
     return (
         <div>
-            <div className="hero-wrap" id="hero"></div>
+            <div className="hero-wrap team" id="hero"></div>
             <Carousel id="myCarousel">
                 <Carousel.Item>
                     <img
