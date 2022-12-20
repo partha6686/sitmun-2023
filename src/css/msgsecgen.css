@@ -62,8 +62,9 @@ section {
 }
 
 .content{
-    margin-left: 20%;
+    margin-left: 15%;
     font-family: "Poppins";
+    text-align: left;
 }
 
 @media only screen and (max-width: 768px) {
@@ -89,6 +90,7 @@ section {
     justify-content: center;
     align-items: center;
     margin: 2px;
+    text-align: center;
 }
 }
 

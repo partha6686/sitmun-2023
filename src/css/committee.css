@@ -223,5 +223,19 @@
   .box-item{
     max-width: 90%;
   }
+  .event_namec p{
+    margin-top: 30%;
+    font-size:36px;
+    font-weight: 800;
+    text-align: center;
+  }
   
 }
+
+.event_namec{
+  margin-top: 10%;
+  font-size: 65px;
+  font-weight: 800;
+  text-align: center;
+}
+

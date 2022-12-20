@@ -48,7 +48,7 @@ const HeroTeam = () => {
                 </Carousel.Item>
             </Carousel>
             <div className="hero_page_wrapper container">
-                <div className="hero_page_main">
+                <div className="hero_page_main t">
                     <div className="hero_title_wrapper team">
                         <div className="event_nameteam">
                             <p>
@@ -56,7 +56,7 @@ const HeroTeam = () => {
                             </p>
                         </div>
                         <div className="event_tagline">
-                            <p>#ReadyForTheHustle</p>
+                            {/* <p>#ReadyForTheHustle</p> */}
                         </div>
                         {/*<div className="why_us">
               <p>

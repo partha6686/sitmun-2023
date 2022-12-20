@@ -1,27 +1,35 @@
  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 * {
   margin: 0;
-  padding: 0;
+  padding: 15px;
   box-sizing: border-box;
   font-family: "Poppins";
   
   /* overflow-x: hidden; */
 }
-
+.hero_page_main p{
+  overflow: hidden;
+}
 .html{
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .team-section{
   background: #212121;
-  overflow-x: hidden;
   width: 100vw;
 }
 .team-container {
-  overflow-x: hidden;
+  
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
+}
+
+.team-container .row{
+  --bs-gutter-x: 0rem;
+  padding-right: 0;
+  padding-left: 0;
+
 }
 .card-container {
     width: 100%;
@@ -109,6 +117,20 @@
 }
 
 .team{
-  overflow-x: hidden;
+  
+}
+
+.t{
+  overflow-y: hidden;
+}
+
+@media screen and (max-width:768px) {
+  .event_nameteam p{
+    margin-top: 30%;
+    font-size:45px;
+    font-weight: 800;
+    text-align: center;
+  }
+  
 }
 

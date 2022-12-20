@@ -23,6 +23,12 @@ const Faq = () => {
       answer:
         "MUN involves participants speaking, debating and writing documents in addition to critical thinking, teamwork and leadership. Delegates critically analyze the given agenda from their assigned country’s perspective thus it helps to learn about international issues, international relations and diplomatic courtesy. Along with this the team of photographers clicks amazing pictures which can be used for Instagram stories, posts or as profile pictures. You can expect good socials from a conference too. Not to forget all the humble (men), beautiful (ladies) intelligent and kind people you get to meet.",
     },
+    {
+      id: 4,
+      question: "What is the fees structure of SITMUN?",
+      answer:
+        "Regarding the fees strcuture, don't worry we got you covered. <a href='https://bit.ly/3skXWqJ' target='_blank'>Click here</a> to know more.",
+    },
   ];
   return (
     <div className="container faq">

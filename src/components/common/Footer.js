@@ -15,8 +15,8 @@ function Footer() {
                     <div class="main">
 
 
-                        <div class="logo row1">
-                            <div class="footer-header">
+                        <div class="logo row1 r">
+                            <div class="footer-header1">
                                 <img src={logo} class="manik" alt="" />
                             </div>
                             <center><hr /></center>
@@ -37,7 +37,7 @@ function Footer() {
                             <div class="office-des">
                                 <p>
                                     USG Public Relations <br />
-                                    SIT MUN 2021 <br />
+                                    SIT MUN 2022 <br />
                                     Silicon Institute of Technology <br />
                                     Email:- meta.academics@silicon.ac.in<br />
                                     Phone:- +91 7873712452
@@ -52,11 +52,11 @@ function Footer() {
                             </div>
 
                             <div class="link-des">
-                                <a href="#" class="footer-links">Home</a>
-                                <a href="#" class="footer-links">About</a>
-                                <a href="#" class="footer-links">Committee</a>
-                                <a href="#" class="footer-links">Gallery</a>
-                                <a href="#" class="footer-links">Team</a>
+                                <a href="/" class="footer-links">Home</a>
+                                <a href="/#about" class="footer-links">About</a>
+                                <a href="/committee" class="footer-links">Committee</a>
+                                <a href="/#gallery" class="footer-links">Gallery</a>
+                                <a href="/teams" class="footer-links">Team</a>
                             </div>
 
                         </div>
@@ -71,6 +71,19 @@ function Footer() {
                                 style={{ border: "0", }}
                                 loading="lazy"
                             ></iframe>
+                        </div>
+
+                        <div class="logo row1 m">
+                            <div class="footer-header">
+                                <img src={logo} class="manik" alt="" />
+                            </div>
+                            <hr className="lhr" />
+                            <div className="social-links">
+                                <a href="https://instagram.com/nirman_silicon?igshid=YmMyMTA2M2Y="><FaInstagram className="insta icon" /></a>
+                                <a href="https://twitter.com/nirman_silicon?t=Gsyq0AJUllxIkxB8EEl8GA&s=08"><FaWhatsapp className="tw icon" /></a>
+                            </div>
+
+
                         </div>
 
 

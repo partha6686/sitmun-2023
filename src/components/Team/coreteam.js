@@ -14,7 +14,7 @@ const oios = 'https://ik.imagekit.io/72bccx2bu/AVINAS.jpeg';
 export default function CoreTeam() {
     return (
         <div>
-            <Heading head='Core Secreteriat' l="hi" />
+            <Heading head='Core Secretariat' />
             <div className="team-container">
                 <Row>
                     <Col xs={12} md={4}>

@@ -16,7 +16,7 @@ import img9 from "../../img/DSC05203.JPG";
 const HeroCommittee = () => {
     return (
         <div>
-            <div className="hero-wrap" id="hero"></div>
+            <div className="hero-wrap committee" id="hero"></div>
             <Carousel id="myCarousel">
                 <Carousel.Item>
                     <img
@@ -50,27 +50,11 @@ const HeroCommittee = () => {
             <div className="hero_page_wrapper container">
                 <div className="hero_page_main">
                     <div className="hero_title_wrapper team">
-                        <div className="event_nameteam">
+                        <div className="event_namec">
                             <p>
                                 Commi<span className="event_year">ttees</span>
                             </p>
                         </div>
-                        <div className="event_tagline">
-                            <p>#ReadyForTheDebate</p>
-                        </div>
-                        {/*<div className="why_us">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corporis tempora sit hic! Accusamus aliquam saepe rerum facilis
-                quo aliquid reiciendis laborum distinctio consequatur in
-                perspiciatis ad, soluta beatae quae ea?
-              </p>
-            </div>*/}
-                        {/* <div className="btn-section">
-                            <a href="/#about" className="hero-button">
-                                Know More
-                            </a>
-                        </div> */}
                     </div>
                 </div>
             </div>
