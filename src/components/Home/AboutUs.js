@@ -4,23 +4,22 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import aboutimg from '../../img/about-img.jpg'
+import Heading from "../common/heading";
 
 function AboutUs() {
   return (
     <Container className="about-us" id="about">
+      <Heading head='About This Event' />
       <div className="about-us-div">
         <img src={aboutimg} alt="about-event" data-aos="fade-down" />
         <p>
-          Silicon Institute Of Technology Model United Nations (SITMUN) is a
-          simulation of the United Nations where students delegate on behalf of
-          member countries to find solutions to the rising global issues through
-          research, drafting, lobbying and debating. Students can also
-          participate as members of the International Press (as
-          reporters/photographers). SITMUN has always been a unique
-          conglomeration of learning and experiencing a MUN, and this time
-          again, we are back with an unparalleled edition. Not even a pandemic
-          can stop those who dare, and this 11th-13th March, we aim at bringing
-          revolution through resolution. We are in, are you!?
+          Model United Nations is a simulation that imitates the procedures of the United Nations finding solutions for real-world problems,
+          done through an academic simulation of the United Nations procedure. The MUN simulation consists of negotiation, discussion, and
+          lively debates, which is the cornerstone of UN activity. Model UN aims to educate students about current events, international relations,
+          diplomacy, and the United Nations agenda. Along with knowledge of the world we live in, participants develop skills including public speaking,
+          presentation, persuasion, situation analysis, research, and critical thinking. SITMUN is an inter-collegiate conference conducted every year.
+          Students from SiliconTech and other institutes across Odisha, participate as delegates in different committees. From each committee the best
+          speakers are awarded.
         </p>
       </div>
       <div className="mob-img-about">

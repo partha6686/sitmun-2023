@@ -5,6 +5,9 @@ import { Container, Card, Row, Col } from "react-bootstrap";
 import Profilecard from "../common/profilecard";
 import { useState } from 'react';
 
+const D = 'https://ik.imagekit.io/72bccx2bu/MANAS.jpg';
+const DD = 'https://ik.imagekit.io/72bccx2bu/ANJALI.jpg';
+
 
 export default function SponsorshipTeam() {
     return (
@@ -12,15 +15,14 @@ export default function SponsorshipTeam() {
             <Heading head='Sponsorship Team' />
             <div className="team-container">
                 <Row>
-                    <Col xs={12} md={4}>
-                        <Profilecard />
+
+                    <Col xs={12} md={6}>
+                        <Profilecard image={D} position='Director' name='Namrata Mishra' />
                     </Col>
-                    <Col xs={12} md={4}>
-                        <Profilecard />
+                    <Col xs={12} md={6}>
+                        <Profilecard image={DD} position='Deputy Director' name='Shreeya Gantayet' />
                     </Col>
-                    <Col xs={12} md={4}>
-                        <Profilecard />
-                    </Col>
+
                 </Row>
             </div>
         </div>
