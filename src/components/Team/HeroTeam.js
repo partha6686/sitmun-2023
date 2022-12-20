@@ -11,7 +11,7 @@ import img4 from "../../img/img4.jpg";
 const HeroTeam = () => {
     return (
         <div>
-            <div className="hero-wrap" id="hero"></div>
+            <div className="hero-wrap team" id="hero"></div>
             <Carousel id="myCarousel">
                 <Carousel.Item>
                     <img

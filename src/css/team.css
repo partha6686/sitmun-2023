@@ -4,15 +4,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins";
+
+  /* overflow-x: hidden; */
 }
 
 .html {
   overflow-x: hidden;
 }
-.team-section {
-  width: 100vw;
-}
+
 .team-container {
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
