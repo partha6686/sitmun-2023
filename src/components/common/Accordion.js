@@ -21,7 +21,7 @@ const Accordion = ({ question, answer }) => {
       </div>
       {showAnswer !== null && (
         <div className={`answer ${showAnswer ? "active" : "inactive"}`}>
-          <p>{answer}</p>
+          <p dangerouslySetInnerHTML={{ __html: answer }}></p>
         </div>
       )}
     </div>

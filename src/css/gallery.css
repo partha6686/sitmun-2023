@@ -63,7 +63,7 @@
 .count_div {
   display: inline-block;
   padding: 0.3rem 2rem;
-  background-color: #2c3333;
+  background-color: var(--ldark);
   border-radius: 10px;
   position: relative;
   z-index: 5;
@@ -73,7 +73,7 @@
 .count_down {
   font-size: 4rem;
   font-weight: 500;
-  color: #29a0d3;
+  color: var(--blue);
   display: flex;
   justify-content: center;
   cursor: context-menu;
@@ -84,7 +84,7 @@
 }
 .cd_block p {
   font-size: 1rem;
-  color: #29a0d3;
+  color: var(--blue);
   margin: 0;
 }
 

@@ -1,3 +1,9 @@
+:root {
+  --blue: #29a0d3;
+  --pink: #810096;
+  --ldark: #2c3333;
+  --vdark: #212121;
+}
 body,
 html {
   width: 100%;

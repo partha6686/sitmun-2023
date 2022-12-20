@@ -8,7 +8,7 @@
 .under-line-middle{
     height: 10px;
     width: 40px;
-    background-color: #29A0D3;
+    background-color: var(--blue);
     margin: 10px auto;
     position: relative;
     bottom: 17px;
