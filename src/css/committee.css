@@ -53,8 +53,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-    text-align: center;
-    border: #29a0d2 solid 2px;  
+    text-align: center; 
     min-height: 475px;
     -ms-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
     transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
@@ -97,6 +96,7 @@
     -webkit-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    background: #292929;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   

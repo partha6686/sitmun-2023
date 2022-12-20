@@ -81,7 +81,7 @@ figure.snip1157 .author h5 {
   opacity: 0.8;
   margin: 0;
   font-weight: 600;
-  color: black;
+  color: #fff;
   font-family: "Poppins";
 }
 figure.snip1157 .author h5 span {
@@ -128,6 +128,10 @@ figure.snip1157 .author h5 span {
     width: 100%;
     border-radius: 8px;
   } */
+
+  .author h5{
+    color: #fff;
+  }
 
 .mySwiper .t-slide.swiper-slide-active {
   opacity: 1;
