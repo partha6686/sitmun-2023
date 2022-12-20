@@ -7,7 +7,9 @@
 .heading h2 {
   font-size: 40px;
   font-weight: 700;
-  color: var(--blue);
+  background: -webkit-linear-gradient(left, var(--pink), var(--lpink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
   padding: 30px 0 10px;
   text-transform: uppercase;

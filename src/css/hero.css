@@ -43,7 +43,10 @@
   text-align: center;
 }
 .event_year {
-  color: var(--blue);
+  /* color: var(--pink); */
+  background: -webkit-linear-gradient(left, var(--pink), var(--lpink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .event_tagline {
   font-size: 19px;

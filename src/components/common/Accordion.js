@@ -6,9 +6,8 @@ const Accordion = ({ question, answer }) => {
   return (
     <div className="accoridon">
       <div
-        className={`question ${showAnswer ? "q-dark" : "q-light"} ${
-          showAnswer === null && "q-light-start"
-        }`}
+        className={`question ${showAnswer ? "q-dark" : "q-light"} ${showAnswer === null && "q-light-start"
+          }`}
         onClick={() =>
           showAnswer ? setShowAnswer(false) : setShowAnswer(true)
         }

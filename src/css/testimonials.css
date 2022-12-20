@@ -23,6 +23,7 @@ figure.snip1157 img {
   vertical-align: middle;
   height: 90px;
   width: 90px;
+  object-fit: cover;
   border-radius: 50%;
   margin: 40px 0 0 10px;
 }
@@ -30,7 +31,7 @@ figure.snip1157 blockquote {
   display: block;
   border-radius: 8px;
   position: relative;
-  background-color: #29a0d3;
+  background: -webkit-linear-gradient(left, var(--pink), var(--lpink));
   padding: 30px 50px 30px 50px;
   font-size: 0.8em;
   font-weight: 500;
@@ -63,7 +64,7 @@ figure.snip1157 .arrow {
   height: 0;
   border-left: 0 solid transparent;
   border-right: 25px solid transparent;
-  border-top: 25px solid #29a0d3;
+  border-top: 25px solid var(--pink);
   margin: 0;
   position: absolute;
 }

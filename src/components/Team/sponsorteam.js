@@ -17,10 +17,10 @@ export default function SponsorshipTeam() {
                 <Row>
 
                     <Col xs={12} md={6}>
-                        <Profilecard image={D} position='Director' name='Namrata Mishra' />
+                        <Profilecard image={D} position='Director' name='Manas Ranjan Padhy' />
                     </Col>
                     <Col xs={12} md={6}>
-                        <Profilecard image={DD} position='Deputy Director' name='Shreeya Gantayet' />
+                        <Profilecard image={DD} position='Deputy Director' name='Anjali Singh' />
                     </Col>
 
                 </Row>

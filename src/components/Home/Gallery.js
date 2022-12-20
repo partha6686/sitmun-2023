@@ -46,7 +46,7 @@ const Gallery = () => {
   ];
   return (
     <>
-      <div className="media container">
+      <div className="media container" id='gallery'>
         <Heading head='Gallery'></Heading>
         <Swiper
           effect={"coverflow"}
