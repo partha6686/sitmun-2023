@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../css/faq.css";
 import Accordion from "../common/Accordion";
-import UnderLine from "../common/UnderLine";
+import Heading from "../common/heading";
 
 const Faq = () => {
   const allFaq = [
@@ -26,8 +26,7 @@ const Faq = () => {
   ];
   return (
     <div className="container faq">
-      <h2>HAVE A QUESTION?</h2>
-      <UnderLine />
+      <Heading head="HAVE A QUESTION?" />
       <div className="faq-div">
         <div>
           {allFaq.map((faq) => (
