@@ -8,6 +8,7 @@ import AboutUs from "../components/Home/AboutUs";
 import MsgSecGen from "../components/Home/MsgSecGen";
 import Testimonials from "../components/Home/Testimonials";
 import Faq from "../components/Home/Faq";
+import Footer from "../components/common/Footer";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <TimeLine />
       <Testimonials />
       <Faq />
+      <Footer />
     </div>
   );
 };

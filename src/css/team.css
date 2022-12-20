@@ -5,12 +5,18 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
+
+.html{
+  overflow-x: hidden;
+}
+.team-section{
+  width: 100vw;
+}
 .team-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  background: #e0f7fa;
 }
 .card-container {
     width: 100%;
@@ -78,6 +84,15 @@
   font-size: 12px;
   font-weight: 300;
   text-transform: initial;
+}
+
+
+
+.event_nameteam{
+  margin-top: 10%;
+  font-size: 65px;
+  font-weight: 800;
+  text-align: center;
 }
 
 
