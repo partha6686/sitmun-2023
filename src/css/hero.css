@@ -6,7 +6,7 @@
   height: 100vh;
   /* min-height: 750px; */
   background-color: #000;
-  opacity: 0.7;
+  opacity: 0.8;
   z-index: 3;
 }
 
@@ -32,6 +32,12 @@
 }
 
 .event_name {
+  font-size: 65px;
+  font-weight: 800;
+  text-align: center;
+}
+.event_nameteam {
+  margin-top: 10%;
   font-size: 65px;
   font-weight: 800;
   text-align: center;
