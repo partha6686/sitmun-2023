@@ -2,16 +2,11 @@ import React from "react";
 import "../../css/hero.css";
 import { Carousel } from "react-bootstrap";
 import { BsChevronDoubleLeft } from "react-icons/bs";
-import {
-    AiFillInstagram,
-    AiOutlineWhatsApp,
-    AiFillYoutube,
-} from "react-icons/ai";
 
-import img1 from "../../img/DSC05014.JPG";
-import img5 from "../../img/DSC_7073.JPG";
-import img8 from "../../img/DSC_6969.JPG";
-import img9 from "../../img/DSC05203.JPG";
+import img1 from "../../img/img1.jpg";
+import img2 from "../../img/img2.jpg";
+import img3 from "../../img/img3.JPG";
+import img4 from "../../img/img4.jpg";
 
 const HeroCommittee = () => {
     return (
@@ -28,21 +23,21 @@ const HeroCommittee = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 hero-img"
-                        src={img5}
+                        src={img2}
                         alt="Second slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 hero-img"
-                        src={img8}
+                        src={img3}
                         alt="Second slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 hero-img"
-                        src={img9}
+                        src={img4}
                         alt="Second slide"
                     />
                 </Carousel.Item>

@@ -1,22 +1,19 @@
- @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 * {
   margin: 0;
   padding: 15px;
   box-sizing: border-box;
   font-family: "Poppins";
-  
+
   /* overflow-x: hidden; */
 }
-.hero_page_main p{
-  overflow: hidden;
-}
-.html{
-  /* overflow-x: hidden; */
-}
+
+
 .team-section{
   background: #212121;
   width: 100vw;
 }
+
 .team-container {
   
   display: flex;
@@ -32,7 +29,7 @@
 
 }
 .card-container {
-    width: 100%;
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -45,15 +42,14 @@
   height: 400px;
   margin: 20px;
   overflow: hidden;
-  box-shadow: 0px 5px 15px ;
+  box-shadow: 0px 5px 15px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.content{
-    margin: 0;
-    
+.content {
+  margin: 0;
 }
 .card-container .card .content {
   position: absolute;
@@ -100,29 +96,23 @@
   text-transform: initial;
 }
 
- .card img{
+.card img {
   padding: 5%;
   padding-bottom: 30%;
   width: 100%; /* or any custom size */
-    height: 100%; 
-    object-fit: cover;
+  height: 100%;
+  object-fit: cover;
 }
 
-
-.event_nameteam{
+.event_nameteam {
   margin-top: 10%;
   font-size: 65px;
   font-weight: 800;
   text-align: center;
 }
 
-.team{
-  
-}
 
-.t{
-  overflow-y: hidden;
-}
+
 
 @media screen and (max-width:768px) {
   .event_nameteam p{
@@ -133,4 +123,3 @@
   }
   
 }
-
