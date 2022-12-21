@@ -77,18 +77,19 @@ const Hero = () => {
       <div className="vertical_div container">
         <div className="scroll_down">
           <BsChevronDoubleLeft />
-          <span> 24.02.2023</span>
+          <span> 24.02.2023 - 26.02.2023</span>
         </div>
         <div className="hero_socials">
-          <AiFillInstagram
-            style={{ marginRight: "30px", transform: "rotate(90deg)" }}
-          />
-          <AiOutlineWhatsApp
-            style={{ marginRight: "30px", transform: "rotate(90deg)" }}
-          />
-          <AiFillYoutube
-            style={{ marginRight: "30px", transform: "rotate(90deg)" }}
-          />
+          <a href="https://www.instagram.com/sitmunbbsr/" target="_blank">
+            <AiFillInstagram
+              style={{ marginRight: "30px", transform: "rotate(90deg)" }}
+            />
+          </a>
+          <a href="https://wa.me/+917717778982" target="_blank">
+            <AiOutlineWhatsApp
+              style={{ marginRight: "30px", transform: "rotate(90deg)" }}
+            />
+          </a>
         </div>
       </div>
     </div>

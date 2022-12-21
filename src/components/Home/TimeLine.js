@@ -12,9 +12,9 @@ import TimeLogo from "./TimeLogo";
 const TimeLine = () => {
   return (
     <div className="timeline_main">
-      <Heading head='Timeline' />
+      <Heading head="Timeline" />
       <div className="time_line">
-        <VerticalTimeline lineColor="#29a0d3">
+        <VerticalTimeline lineColor="#a222cc">
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2011 - present"
