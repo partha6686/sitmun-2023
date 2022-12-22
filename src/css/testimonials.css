@@ -112,8 +112,8 @@ figure.snip1157 .author h5 span {
 
 .swiper-container {
   width: 100%;
-  margin: 40px 0;
-  padding: 45px 0;
+  /* margin: 40px 0;
+  padding: 45px 0; */
 }
 
 .mySwiper .t-slide {
@@ -154,3 +154,19 @@ figure.snip1157 .author h5 span {
 }
 
 /*  */
+@media screen and (max-width:768px) {
+  figure.snip1157 blockquote {
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background: -webkit-linear-gradient(left, var(--pink), var(--lpink));
+  padding: 15%;
+  font-size: 0.65em;
+  font-weight: 500;
+  color: white;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
+}
+  
+}
