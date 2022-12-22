@@ -3,10 +3,7 @@ import "../../css/hero.css";
 import { Carousel } from "react-bootstrap";
 import { BsChevronDoubleLeft } from "react-icons/bs";
 
-import img1 from "../../img/img3.JPG";
-import img2 from "../../img/img1.jpg";
-import img3 from "../../img/img2.jpg";
-import img4 from "../../img/img4.jpg";
+const img1 = "https://ik.imagekit.io/lvjdjaus38/img3.JPG";
 
 const HeroTeam = () => {
     return (

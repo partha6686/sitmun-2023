@@ -8,10 +8,10 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 
-import img1 from "../../img/img1.jpg";
-import img2 from "../../img/img2.jpg";
-import img3 from "../../img/img3.JPG";
-import img4 from "../../img/img4.jpg";
+const img1 = "https://ik.imagekit.io/lvjdjaus38/img1.jpg";
+const img2 = "https://ik.imagekit.io/lvjdjaus38/img2.jpg";
+const img3 = "https://ik.imagekit.io/lvjdjaus38/img3.JPG";
+const img4 = "https://ik.imagekit.io/lvjdjaus38/img4.jpg";
 
 const Hero = () => {
   return (
