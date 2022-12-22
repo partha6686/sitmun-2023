@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Container, Nav, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import logo from "../../img/logo.png";
 import "../../css/navbar.css";
 
@@ -35,16 +36,20 @@ function NavbarSection() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
-          <Nav.Link href="/" className="navbar-menu">
+          <Link to="/" className="navbar-menu">
             HOME
-          </Nav.Link>
-          <Nav.Link href="/teams" className="navbar-menu">
+          </Link>
+          <Link to="/teams" className="navbar-menu">
             TEAM
-          </Nav.Link>
-          <Nav.Link href="/committee" className="navbar-menu">
+          </Link>
+          <Link to="/committee" className="navbar-menu">
             COMMITTEE
-          </Nav.Link>
-          <Nav.Link href="#home" className="">
+          </Link>
+          <Nav.Link
+            href="https://forms.gle/porYn6m1M4wPkj9x5"
+            target="_blank"
+            className=""
+          >
             <Button className="register-button">REGISTER</Button>
           </Nav.Link>
         </Navbar.Collapse>
