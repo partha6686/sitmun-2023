@@ -12,11 +12,6 @@ import { Autoplay, Pagination, EffectCoverflow, Navigation } from "swiper";
 import "../../css/gallery.css";
 import Heading from "../common/heading";
 
-import img1 from "../../img/DSC05014.JPG";
-import img5 from "../../img/DSC_7073.JPG";
-import img8 from "../../img/DSC_6969.JPG";
-import img9 from "../../img/DSC05203.JPG";
-
 const Gallery = () => {
   const galData = [
     {
