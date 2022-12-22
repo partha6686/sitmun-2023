@@ -20,34 +20,40 @@ import img9 from "../../img/DSC05203.JPG";
 const Gallery = () => {
   const galData = [
     {
-      imgSrc: img1,
+      imgSrc: "https://ik.imagekit.io/lvjdjaus38/img1.jpg",
     },
     {
-      imgSrc: img5,
+      imgSrc: "https://ik.imagekit.io/lvjdjaus38/img2.jpg",
     },
     {
-      imgSrc: img8,
+      imgSrc: "https://ik.imagekit.io/lvjdjaus38/img3.jpg",
     },
     {
-      imgSrc: img9,
+      imgSrc: "https://ik.imagekit.io/lvjdjaus38/img4.jpg",
     },
     {
-      imgSrc: img5,
+      imgSrc: "https://ik.imagekit.io/lvjdjaus38/img5.JPG",
     },
     {
-      imgSrc: img8,
+      imgSrc: "https://ik.imagekit.io/lvjdjaus38/img6.JPG",
     },
     {
-      imgSrc: img1,
+      imgSrc: "https://ik.imagekit.io/lvjdjaus38/img7.JPG",
     },
     {
-      imgSrc: img9,
+      imgSrc: "https://ik.imagekit.io/lvjdjaus38/img8.jpg",
+    },
+    {
+      imgSrc: "https://ik.imagekit.io/lvjdjaus38/img9.jpg",
+    },
+    {
+      imgSrc: "https://ik.imagekit.io/lvjdjaus38/img10.JPG",
     },
   ];
   return (
     <>
-      <div className="media container" id='gallery'>
-        <Heading head='Gallery'></Heading>
+      <div className="media container" id="gallery">
+        <Heading head="Gallery"></Heading>
         <Swiper
           effect={"coverflow"}
           slidesPerView={"auto"}
