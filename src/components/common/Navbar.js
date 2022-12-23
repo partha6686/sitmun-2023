@@ -36,15 +36,15 @@ function NavbarSection() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
-          <Link to="/" className="navbar-menu">
+          <Nav.Link href="/" className="navbar-menu">
             HOME
-          </Link>
-          <Link to="/teams" className="navbar-menu">
+          </Nav.Link>
+          <Nav.Link href="/teams" className="navbar-menu">
             TEAM
-          </Link>
-          <Link to="/committee" className="navbar-menu">
+          </Nav.Link>
+          <Nav.Link href="/committee" className="navbar-menu">
             COMMITTEE
-          </Link>
+          </Nav.Link>
           <Nav.Link
             href="https://forms.gle/porYn6m1M4wPkj9x5"
             target="_blank"
