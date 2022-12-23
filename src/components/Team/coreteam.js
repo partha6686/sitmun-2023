@@ -6,7 +6,7 @@ import Profilecard from "../common/profilecard";
 import { useState } from 'react';
 
 const sg = 'https://ik.imagekit.io/72bccx2bu/AVINAS.jpeg';
-const dsg = 'https://ik.imagekit.io/72bccx2bu/GEETANSA.JPG';
+const dsg = 'https://ik.imagekit.io/72bccx2bu/GEETANSA.webp';
 const dg = 'https://ik.imagekit.io/72bccx2bu/SONAM.png';
 const charged = 'https://ik.imagekit.io/72bccx2bu/ARPITA.jpg';
 const oios = 'https://ik.imagekit.io/72bccx2bu/AKASH.jpg';

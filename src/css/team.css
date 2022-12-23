@@ -11,7 +11,7 @@
 
 .team-section{
   background: #212121;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .team-container {
@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .team-container .row{
@@ -121,6 +121,21 @@
     font-size:45px;
     font-weight: 800;
     text-align: center;
+  }
+
+  .card-container .card .content {
+    bottom: 0;
+    transition-delay: 0s;
+  }
+
+  .card-container .card .content .contentBx h3 {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .card-container .card .content .contentBx h3 span {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: initial;
   }
   
 }
