@@ -17,47 +17,58 @@ const TimeLine = () => {
         <VerticalTimeline lineColor="#a222cc">
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2011 - present"
+            date="November 30,2022"
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<TimeLogo />}
           >
             <h3 className="vertical-timeline-element-title">
-              Creative Director
+              Committe Declaration
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <h6 className="vertical-timeline-element-subtitle"></h6>
             <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
+              Committees were declared for the 2023 edition that included WHA,UNHRC,DISEC,IP.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2010 - 2011"
+            date="December 16,2022"
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<TimeLogo />}
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              San Francisco, CA
-            </h4>
+            <h3 className="vertical-timeline-element-title">Dates Revealed</h3>
+            <h6 className="vertical-timeline-element-subtitle">
+
+            </h6>
             <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
+              Official dates for SITMUN 2023 are declared now that starts from 24th February,2023 - 26th February,2023.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2008 - 2010"
+            date="December 21,2022"
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<TimeLogo />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Los Angeles, CA
-            </h4>
-            <p>User Experience, Visual Design</p>
+            <h3 className="vertical-timeline-element-title">Early Bird Application</h3>
+            <h6 className="vertical-timeline-element-subtitle">
+
+            </h6>
+            <p>Early bird Registration is live now. Hurry up!,book your seats now</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="TBD"
+            iconStyle={{ background: "#fff", color: "#fff" }}
+            icon={<TimeLogo />}
+          >
+            <h3 className="vertical-timeline-element-title">To Be Revealed Soon!!!</h3>
+            <h6 className="vertical-timeline-element-subtitle">
+
+            </h6>
+            <p>Other event dates to be disclosed soon, stay tuned to the website or follow our insta page for to stay updated.</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
+
       </div>
     </div>
   );

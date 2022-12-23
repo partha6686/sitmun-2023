@@ -5,7 +5,7 @@ import { Container, Card, Row, Col } from "react-bootstrap";
 import Profilecard from "../common/profilecard";
 import { useState } from 'react';
 
-const D = 'https://ik.imagekit.io/72bccx2bu/NAKKINA.jpg';
+const D = 'https://ik.imagekit.io/72bccx2bu/NAKKINA.webp';
 export default function Finance() {
     return (
         <div>

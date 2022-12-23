@@ -58,14 +58,7 @@ const Hero = () => {
             <div className="event_tagline">
               <p>#Revolutionthroughresolution</p>
             </div>
-            {/*<div className="why_us">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corporis tempora sit hic! Accusamus aliquam saepe rerum facilis
-                quo aliquid reiciendis laborum distinctio consequatur in
-                perspiciatis ad, soluta beatae quae ea?
-              </p>
-            </div>*/}
+
             <div className="btn-section">
               <a href="/#about" className="hero-button">
                 Know More
