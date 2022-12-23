@@ -79,7 +79,7 @@ function Footer() {
                             </div>
                             <hr className="lhr" />
                             <div className="social-links">
-                                <a href="https://instagram.com/instagram.com/sitmunbbsr"><FaInstagram className="insta icon" /></a>
+                                <a href="https://www.instagram.com/sitmunbbsr/"><FaInstagram className="insta icon" /></a>
                                 <a href="https://wa.me/+917717778982"><FaWhatsapp className="tw icon" /></a>
                             </div>
 
