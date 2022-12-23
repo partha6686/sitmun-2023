@@ -56,7 +56,6 @@ function NavbarSection() {
     //   </Container>
     // </Navbar>
 
-
     <Navbar
       variant={`${navBackground ? "light" : "dark"}`}
       expand="md"
@@ -75,15 +74,15 @@ function NavbarSection() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
-          <Nav.Link href="/" className="navbar-menu">
+          <Link to={"/"} className="navbar-menu">
             HOME
-          </Nav.Link>
-          <Nav.Link href="/teams" className="navbar-menu">
+          </Link>
+          <Link to={"/teams"} className="navbar-menu">
             TEAM
-          </Nav.Link>
-          <Nav.Link href="/committee" className="navbar-menu">
+          </Link>
+          <Link to={"/committee"} className="navbar-menu">
             COMMITTEE
-          </Nav.Link>
+          </Link>
           <Nav.Link
             href="https://forms.gle/porYn6m1M4wPkj9x5"
             target="_blank"
@@ -98,5 +97,3 @@ function NavbarSection() {
 }
 
 export default NavbarSection;
-
-
