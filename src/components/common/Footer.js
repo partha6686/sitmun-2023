@@ -36,7 +36,7 @@ function Footer() {
                             </div>
                             <div class="office-des">
                                 <p>
-                                    USG Public Relations <br />
+                                    Deputy Secretary General <br />
                                     SIT MUN 2023 <br />
                                     Silicon Institute of Technology <br />
                                     Email:- meta.academics@silicon.ac.in<br />
@@ -79,8 +79,8 @@ function Footer() {
                             </div>
                             <hr className="lhr" />
                             <div className="social-links">
-                                <a href="https://www.instagram.com/sitmunbbsr/"><FaInstagram className="insta icon" /></a>
-                                <a href="https://wa.me/+917717778982"><FaWhatsapp className="tw icon" /></a>
+                                <a href="https://www.instagram.com/sitmunbbsr/" target="_blank"><FaInstagram className="insta icon" /></a>
+                                <a href="https://wa.me/+917717778982" target="_blank"><FaWhatsapp className="tw icon" /></a>
                             </div>
 
 
