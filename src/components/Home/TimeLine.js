@@ -53,7 +53,7 @@ const TimeLine = () => {
             <h6 className="vertical-timeline-element-subtitle">
 
             </h6>
-            <p>Early bird Registration is live now. Hurry up!,book your seats now</p>
+            <p>Early bird Registration is live now. Hurry up!,Book your seats now.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -65,7 +65,19 @@ const TimeLine = () => {
             <h6 className="vertical-timeline-element-subtitle">
 
             </h6>
-            <p>Other event dates to be disclosed soon, stay tuned to the website or follow our insta page for to stay updated.</p>
+            <p>Other event dates will be disclosed soon. Stay tuned to the website or follow our Instagram page to stay updated.</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="24th Feb - 26th Feb,2023"
+            iconStyle={{ background: "#fff", color: "#fff" }}
+            icon={<TimeLogo />}
+          >
+            <h3 className="vertical-timeline-element-title">Event Dates</h3>
+            <h6 className="vertical-timeline-element-subtitle">
+
+            </h6>
+            <p>Official dates of SITMUN 2023 are 24th of February to 26th of February 2023.</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
 

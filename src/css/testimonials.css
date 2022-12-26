@@ -1,5 +1,11 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+
+
+.testimonials-container{
+  width: 100vw;
+}
+
 figure.snip1157 {
   font-family: "Raleway", Arial, sans-serif;
   position: relative;
@@ -152,6 +158,8 @@ figure.snip1157 .author h5 span {
   z-index: 1;
   transform: scale(1.5);
 }
+
+
 
 /*  */
 @media screen and (max-width:768px) {

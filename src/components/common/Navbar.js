@@ -63,7 +63,7 @@ function NavbarSection() {
       className={`navbar ${navBackground ? "solid" : "transparent"} `}
     >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             src={logo}
             width="60"

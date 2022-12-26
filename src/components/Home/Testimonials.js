@@ -40,8 +40,8 @@ function Testimonials() {
 
     return (
         <div className="testimonial-section">
-            <Heading head="What Participants said?" />
-            <Container>
+            <div><Heading head="What Participants said?" /></div>
+            <div> <Container className="testimonials-container">
 
                 <div className="testimonials-swiper-container">
                     <Swiper
@@ -109,7 +109,7 @@ function Testimonials() {
                 </div>
 
 
-            </Container>
+            </Container></div>
         </div>
     );
 }
