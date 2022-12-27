@@ -11,25 +11,41 @@ import Heading from "../common/heading";
 
 const tdata = [
     {
-        image: "https://ik.imagekit.io/72bccx2bu/Astha_kar.jpeg",
-        author: "Astha Kar",
-        message: "SITMUN2021 was a memorable experience. I represented Russia in UNHRC and it was an amazing committee, full ofenthusiasm. One of the most remarkable things was the Executive Board, they were so good in their job which kept all of us focused and engaged through all 3 days. The socials were pretty cool, all thanks to the OC.",
+        image: "https://ik.imagekit.io/72bccx2bu/ABHIPSHA.jpg",
+        author: "Abhipsa",
+        message: "SIT MUN✨was such an amazing experience for me.That was my first MUN. Meeting new people and communicating was one of the best part.I had got one of the best Committee DISEC.The country was Turkey. It was not just an amazing experience but I have also gained the confidence in public speaking and overcome my stage fear.Those three days were greatt!!",
     },
-    // {
-    //     image: "https://ik.imagekit.io/72bccx2bu/Savyasachi.jpeg",
-    //     author: "Savyasachi Mitra",
-    //     message: "Last year I was fortunate enough to participate in the SITMUN 2022 as a photographer for the IP team .It was a really fantastic experience as on field there is so much going on in terms of emotions , debate and commute."
-    // },
     {
-        image: "https://ik.imagekit.io/72bccx2bu/Amruta.jpeg",
-        author: "Amruta Ray",
-        message: "I joined my first MUN as the delegate of Denmark in SITMUN.I was in the DISEC commitee. SITMUN is the best platform to participate and give urself a chance to share your point of views on delegate affairs and public relations . I personally recommend all the freshers to participate atleast once and urself a beautiful experience to explore the SITMUN."
+        image: "https://ik.imagekit.io/72bccx2bu/SHREYA.jpg",
+        author: "Shreya",
+        message: "To the very first question, my experience in DISEC was quite memorable as I got a chance to go for single delegation and win as well. Secondly, this really made an impact on my life by not only boosting my confidence but also assuring me that I was good enough on my own. The most surprising moment was being recognized for high recommendation itself, well honestly I didn't expected that. Lastly, I would likely be suggesting people on a 10 on 10 rating to participate."
+    },
+    {
+        image: "https://ik.imagekit.io/72bccx2bu/SANKALP.jpg",
+        author: "Sankalp Chauhan",
+        message: "SITMUN 2022 was the conference where I restarted my MUN journey after 2019 and since then there was no looking back. The conference gave me the opportunity to meet some of the best people not only from SIT but from universities across Odisha. There is no doubt that SIT hosts one of the best MUNs in the entire Easter Region and I am glad to be a part of such a superlative conference."
     },
 
     {
-        image: "https://ik.imagekit.io/72bccx2bu/Sreelaxmi.jpeg",
-        author: "Sreelaxmi Sukhari",
-        message: "Being a first timer I was hesitating a lot in the beginning and had many doubts. But starting from the first day itself I enjoyed the process of learning. It's a great platform,starting from debating to developing diplomacy. Many soft skills also develop in this whole process. It was a great experience for me. I believe for a college student - MUN is a ’MUST to have’ experience."
+        image: "https://ik.imagekit.io/72bccx2bu/ABHIJET.jpg",
+        author: "Abhijit",
+        message: "SITMUN 2022 is one of the most wonderful event in my life that I have ever participated.This platform provided me the opportunity to meet and interact with new people outside my college. I am very thrilled to be the part of this event as it had helped me in developing new skills.I will highly recommend this event to everyone ,no matter whether he/she is a beginner or highly experienced as it is a perfect platform to recognize your true form."
+    },
+    {
+        image: "https://ik.imagekit.io/72bccx2bu/AAYUSHEE.jpg",
+        author: "Aayusee",
+        message: "As a beginner my experience was really nice and quite memorable as well. I got to know about so many things which really helped me in improving my general knowledge. The research done by people .Of course I would recommend people to participate as it helped me in boosting my confidence. Cheers to SIT MUN⭐️"
+    },
+    {
+        image: "https://ik.imagekit.io/72bccx2bu/LORIA.jpg",
+        author: "Loria",
+        message: " I attended MUN for the first time in 2022, and it been SITMUN. SITMUN gave me a lifetime experience and completely changed my ideology about MUNs and literary events on a broad scale. The thing that surprised me the most was , it was not as bad as I had imagined it to be . I regret not attending MUNs from early on , I feel sad about the number of experiences and the amount of information I have passed my chance on , I hope you all don't do the same !! All the best everyone and Happy Mun-ning!!."
+    },
+
+    {
+        image: "https://ik.imagekit.io/72bccx2bu/SWASTI.jpg",
+        author: "Swasti",
+        message: "It was an absolute blast. As it was 1st MUN, I’m literally grateful for having such a cooperative and helpful committee and OC. It was my dream come true to attend a MUN and have been attending many MUNs since then.The politeness, support and help of the OC members did really touch my heart.Will surely recommend and motivate all my friends to attend it too."
     },
 
 
@@ -70,7 +86,7 @@ function Testimonials() {
                         freeMode={true}
                         followFinger={true}
                         centeredSlides={true}
-                        speed={1200}
+                        speed={1500}
                         pagination={false}
                         autoplay={{
                             delay: 2500,
