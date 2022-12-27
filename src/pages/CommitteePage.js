@@ -28,7 +28,7 @@ function CommitteePage() {
                                     crisis to the poverty issues, many lives have been subjugated to
                                     utter disdain, to tackle this issue, UNHRC was established.
                                 </p>
-                                <button class="flip-box-button">Details</button>
+                                {/* <button class="flip-box-button">Details</button> */}
                             </div>
                         </div>
                     </div>
