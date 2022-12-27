@@ -9,7 +9,7 @@ const sg = 'https://ik.imagekit.io/72bccx2bu/AVINAS.jpeg';
 const dsg = 'https://ik.imagekit.io/72bccx2bu/GEETANSA.webp';
 const dg = 'https://ik.imagekit.io/72bccx2bu/SONAM.png';
 const charged = 'https://ik.imagekit.io/72bccx2bu/ARPITA.jpg';
-const oios = 'https://ik.imagekit.io/72bccx2bu/AKASH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1672116734300';
+const oios = 'https://ik.imagekit.io/72bccx2bu/AKASH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1672117174518';
 
 export default function CoreTeam() {
     return (
