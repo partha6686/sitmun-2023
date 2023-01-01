@@ -7,6 +7,7 @@ import Navbar from "./components/common/Navbar";
 import Home from "./pages/Home";
 import TeamPage from "./pages/Team";
 import CommitteePage from "./pages/CommitteePage";
+import Loading from "./components/common/Loading";
 // const Navbar = React.lazy(() => import("./components/common/Navbar"));
 // const Home = React.lazy(() => import("./pages/Home"));
 // const TeamPage = React.lazy(() => import("./pages/Team"));
@@ -16,15 +17,14 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        {/* <Suspense fallback={<div style={{ color: "white" }}>Loading...</div>}>
-          
-        </Suspense> */}
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/teams" element={<TeamPage />} />
-          <Route path="/committee" element={<CommitteePage />} />
-        </Routes>
+        <Suspense fallback={<Loading />}>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/teams" element={<TeamPage />} />
+            <Route path="/committee" element={<CommitteePage />} />
+          </Routes>
+        </Suspense>
       </BrowserRouter>
     </div>
   );
