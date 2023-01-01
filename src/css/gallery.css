@@ -173,8 +173,12 @@
   }
   .vertical-timeline-element-content .vertical-timeline-element-date {
     text-align: center !important;
-    float: none;
+    float: none !important;
 
     /* margin: auto; */
   }
+  /* .vertical-timeline-element-date span{
+    text-align: center!important;
+    float: none !important;
+  } */
 }

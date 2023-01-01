@@ -28,7 +28,7 @@ function CommitteePage() {
                                     crisis to the poverty issues, many lives have been subjugated to
                                     utter disdain, to tackle this issue, UNHRC was established.
                                 </p>
-                                <button class="flip-box-button">Details</button>
+                                {/* <button class="flip-box-button">Details</button> */}
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ function CommitteePage() {
                                     the imminent threat to the mortal existence on the planet. As is
                                     the truth, every coin has two sides, so does this situation, thus
                                     their needs to be a mechanism which ensures the safety.</p>
-                                <button class="flip-box-button">Details</button>
+                                {/* <button class="flip-box-button">Details</button> */}
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ function CommitteePage() {
                             <div class="inner color-white">
                                 <p>The World Health Assembly is the governing body of World Health Organization, the technical health agency of the United Nations. The World Health Assembly takes place annually on the month of May at the United Nations in Geneva, Switzerland. During this one-week meeting, member states determine the policies of the Organization, appoint the Director-General, discuss upon resolutions, analyze action plans, supervise finances, review and approve the proposed budgets and further deliberate on key public health issues.
                                 </p>
-                                <button class="flip-box-button">Details</button>
+                                {/* <button class="flip-box-button">Details</button> */}
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ function CommitteePage() {
                                     participants to act as unbiased journalists, reporting on the
                                     proceedings of each simulation in the Conference.
                                 </p>
-                                <button class="flip-box-button">Details</button>
+                                {/* <button class="flip-box-button">Details</button> */}
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ function CommitteePage() {
                                         crisis to the poverty issues, many lives have been subjugated to
                                         utter disdain, to tackle this issue, UNHRC was established.
                                     </p>
-                                    <button class="flip-box-button">Details</button>
+                                    {/* <button class="flip-box-button">Details</button> */}
                                 </div>
                             </div>
                         </div>
@@ -149,7 +149,7 @@ function CommitteePage() {
                                         the imminent threat to the mortal existence on the planet. As is
                                         the truth, every coin has two sides, so does this situation, thus
                                         their needs to be a mechanism which ensures the safety.</p>
-                                    <button class="flip-box-button">Details</button>
+                                    {/* <button class="flip-box-button">Details</button> */}
                                 </div>
                             </div>
                         </div>
@@ -173,7 +173,7 @@ function CommitteePage() {
                                 <div class="inner color-white">
                                     <p>The World Health Assembly is the governing body of World Health Organization, the technical health agency of the United Nations. The World Health Assembly takes place annually on the month of May at the United Nations in Geneva, Switzerland. During this one-week meeting, member states determine the policies of the Organization, appoint the Director-General, discuss upon resolutions, analyze action plans, supervise finances, review and approve the proposed budgets and further deliberate on key public health issues.
                                     </p>
-                                    <button class="flip-box-button">Details</button>
+                                    {/* <button class="flip-box-button">Details</button> */}
                                 </div>
                             </div>
                         </div>
@@ -198,7 +198,7 @@ function CommitteePage() {
                                         participants to act as unbiased journalists, reporting on the
                                         proceedings of each simulation in the Conference.
                                     </p>
-                                    <button class="flip-box-button">Details</button>
+                                    {/* <button class="flip-box-button">Details</button> */}
                                 </div>
                             </div>
                         </div>
