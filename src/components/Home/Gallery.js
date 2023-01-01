@@ -35,9 +35,9 @@ const Gallery = () => {
     {
       imgSrc: "https://ik.imagekit.io/lvjdjaus38/img7.JPG",
     },
-    {
-      imgSrc: "https://ik.imagekit.io/lvjdjaus38/img8.jpg",
-    },
+    // {
+    //   imgSrc: "https://ik.imagekit.io/lvjdjaus38/img8.jpg",
+    // },
     {
       imgSrc: "https://ik.imagekit.io/lvjdjaus38/img9.jpg",
     },
@@ -53,6 +53,9 @@ const Gallery = () => {
           effect={"coverflow"}
           slidesPerView={"auto"}
           centeredSlides={true}
+          freeMode={true}
+          followFinger={true}
+          speed={1500}
           coverflowEffect={{
             rotate: 0,
             stretch: 100,
@@ -60,10 +63,11 @@ const Gallery = () => {
             modifier: 1.5,
             slideShadows: false,
           }}
+          grabCursor={true}
           loop={true}
           autoplay={{
-            delay: 2400,
-            disableOnInteraction: true,
+            delay: 1500,
+            disableOnInteraction: false,
           }}
           pagination={{
             clickable: true,

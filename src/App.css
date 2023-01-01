@@ -7,6 +7,20 @@
   --ldark: #313131;
   --vdark: #212121;
 }
+*{
+  scroll-behavior: smooth !important;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.landing-container{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-snap-type: mandatory;
+}
+
+
 body,
 html {
   width: 100%;

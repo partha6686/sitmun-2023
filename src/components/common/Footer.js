@@ -5,9 +5,16 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import aboutimg from '../../img/about-img.jpg'
 import logo from '../../img/logo.png'
-import { FaWhatsapp, FaInstagram } from "react-icons/fa"
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function Footer() {
+    let location = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        // eslint-disable-next-line
+    }, [location.pathname])
     return (
         <div className="footer-container">
             <footer class="footer-sec">
@@ -36,7 +43,7 @@ function Footer() {
                             </div>
                             <div class="office-des">
                                 <p>
-                                    USG Public Relations <br />
+                                    Deputy Secretary General <br />
                                     SIT MUN 2023 <br />
                                     Silicon Institute of Technology <br />
                                     Email:- meta.academics@silicon.ac.in<br />
@@ -52,10 +59,10 @@ function Footer() {
                             </div>
 
                             <div class="link-des">
-                                <a href="/" class="footer-links">Home</a>
-                                <a href="/#about" class="footer-links">About</a>
+                                <a href='/' class="footer-links">Home</a>
+                                <a href="/#about" className={location.pathname === '/#about' && location.hash === '#about'} class="footer-links">About</a>
                                 <a href="/committee" class="footer-links">Committee</a>
-                                <a href="/#gallery" class="footer-links">Gallery</a>
+                                <a href="/#gallery" className={location.pathname === '/#gallery' && location.hash === '#gallery'} class="footer-links">Gallery</a>
                                 <a href="/teams" class="footer-links">Team</a>
                             </div>
 
@@ -79,8 +86,8 @@ function Footer() {
                             </div>
                             <hr className="lhr" />
                             <div className="social-links">
-                                <a href="https://www.instagram.com/sitmunbbsr/"><FaInstagram className="insta icon" /></a>
-                                <a href="https://wa.me/+917717778982"><FaWhatsapp className="tw icon" /></a>
+                                <a href="https://www.instagram.com/sitmunbbsr/" target="_blank"><FaInstagram className="insta icon" /></a>
+                                <a href="https://wa.me/+917717778982" target="_blank"><FaWhatsapp className="tw icon" /></a>
                             </div>
 
 
@@ -92,7 +99,7 @@ function Footer() {
                 <div class="copyright">
                     <center><hr /></center>
 
-                    <p>© Copyright 2022 SITMUN WEBTEAM.</p>
+                    <p>© Copyright 2023 SITMUN.</p>
                 </div>
             </footer>
         </div>

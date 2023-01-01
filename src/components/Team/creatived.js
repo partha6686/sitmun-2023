@@ -21,7 +21,7 @@ export default function CreativeTeam() {
                         <Profilecard image={dsg} position='Director' name='Aditya Pradhan' />
                     </Col>
                     <Col xs={12} md={4}>
-                        <Profilecard image={DD} position='Director' name='Shraddha Mishra' />
+                        <Profilecard image={DD} position='Deputy Director' name='Shraddha Mishra' />
                     </Col>
 
                 </Row>
