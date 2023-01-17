@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 const sg = 'https://ik.imagekit.io/72bccx2bu/AVINAS.jpeg';
 const dsg = 'https://ik.imagekit.io/72bccx2bu/GEETANSA.webp';
-const dg = 'https://ik.imagekit.io/72bccx2bu/SONAM.png';
+const dg = 'https://ik.imagekit.io/72bccx2bu/sonam.jpg';
 const charged = 'https://ik.imagekit.io/72bccx2bu/ARPITA.jpg';
 const oios = 'https://ik.imagekit.io/72bccx2bu/AKASH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1672117174518';
 
@@ -24,7 +24,7 @@ export default function CoreTeam() {
                         <Profilecard image={dsg} position='Deputy Secretary General' name='Geetansa' />
                     </Col>
                     <Col xs={12} md={4}>
-                        <Profilecard image={dg} position='Deputy General' name='Sonam Acharya' />
+                        <Profilecard image={dg} position='Director General' name='Sonam Acharya' />
                     </Col>
                 </Row>
             </div>
