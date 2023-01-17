@@ -84,7 +84,7 @@ function NavbarSection() {
             COMMITTEE
           </Nav.Link>
           <Nav.Link
-            href="https://forms.gle/porYn6m1M4wPkj9x5"
+            href="http://bit.ly/first_round_application"
             target="_blank"
             className=""
           >
