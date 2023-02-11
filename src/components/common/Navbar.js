@@ -84,7 +84,7 @@ function NavbarSection() {
             COMMITTEE
           </Nav.Link>
           <Nav.Link
-            href="http://bit.ly/first_round_application"
+            href="http://bit.ly/secondRoundApplication"
             target="_blank"
             className=""
           >
