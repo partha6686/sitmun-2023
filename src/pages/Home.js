@@ -1,9 +1,10 @@
-import React, { useRef, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import React, { useRef, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import "../App.css";
 import CountDown from "../components/Home/CountDown";
 // import Gallery from "../components/Home/Gallery";
 import Hero from "../components/Home/Hero";
+
 // import TimeLine from "../components/Home/TimeLine";
 // import AboutUs from "../components/Home/AboutUs";
 // import MsgSecGen from "../components/Home/MsgSecGen";
@@ -16,7 +17,10 @@ const Gallery = React.lazy(() => import("../components/Home/Gallery"));
 const TimeLine = React.lazy(() => import("../components/Home/TimeLine"));
 const AboutUs = React.lazy(() => import("../components/Home/AboutUs"));
 const MsgSecGen = React.lazy(() => import("../components/Home/MsgSecGen"));
-const Testimonials = React.lazy(() => import("../components/Home/Testimonials"));
+const Testimonials = React.lazy(() =>
+  import("../components/Home/Testimonials")
+);
+const Sponsors = React.lazy(() => import("../components/Home/Sponsors"));
 const Faq = React.lazy(() => import("../components/Home/Faq"));
 const Footer = React.lazy(() => import("../components/common/Footer"));
 
@@ -31,6 +35,7 @@ const Home = () => {
       <Gallery />
       <TimeLine />
       <Testimonials />
+      <Sponsors />
       <Faq />
       <Footer />
     </div>
